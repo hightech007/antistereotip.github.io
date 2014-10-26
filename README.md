@@ -1,2 +1,0 @@
-antistereotip.github.io
-=======================
