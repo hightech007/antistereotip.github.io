@@ -175,7 +175,7 @@ body {
       margin: 0 auto;
       padding: 5px 20px;
 	border:1px solid #17f118;
-      -webkit-border-radius: 10px;
+      -webkit-border-radius: 0px;
       background-color: rgba(128, 128, 128, 0.5);
 	color: rgb(255, 179, 179);
     }

@@ -2,7 +2,7 @@ body {
       background-color: black;
       color: white;
       font-family: 'Lucida Grande', Verdana, Arial;
-      font-size: 12px;background-image:url(../_data/pics/jpg/art9.jpg);background-repeat: no-repeat;
+      font-size: 12px;background-image:url(../data/pics/jpg/art9.jpg);background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
       /* background-image: -webkit-gradient(radial,
