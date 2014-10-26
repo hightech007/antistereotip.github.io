@@ -1,7 +1,7 @@
 body {
       background-color: black;
       color: white;
-      font-family: 'Lucida Grande', Verdana, Arial;
+       font-family:'Open Sans Condensed','Arial Narrow',arial,verdana,trebuchet,sans-serif;
       font-size: 12px;
       /* background-image:url(../data/pics/jpg/art9.jpg);
      background-repeat: no-repeat;
@@ -170,12 +170,16 @@ body {
     .ring > .twelve {
       -webkit-transform: rotateY(330deg) translateZ(380px);
     }
-.h3 {background:#fff;padding:5px;}
+.h3 {background:#fff;padding:3px;border-bottom: 1px solid #A5FFA5;
+-moz-box-shadow: inset 3px 4px 33px 10px #5D5555;
+-webkit-box-shadow: inset 3px 4px 33px 10px #5D5555;
+box-shadow: inset 3px 4px 33px 10px #5D5555;
+}
 
- .controls {
-width: 80%;
+.controls {
+width: 96%;
 margin: 0 auto;
-padding: 5px 10px;
+padding: 1px 20px;
 border: 1px solid #A5FFA5;
 -webkit-border-radius: 0px;
 background-color: rgba(73, 73, 73, 0.23);

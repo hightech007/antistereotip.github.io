@@ -25,15 +25,16 @@ background: url('bg.png');
 .button {
 position: relative;
 display: inline-block;
-color: #fff;
+color: #FFFFFF;
 text-decoration: none;
 font-weight: 600;
 border: 0;
+border-right:1px solid #A5FFA5;
 outline: 0;
 cursor: pointer;
 overflow: hidden;
-background: #9ECAF3;
-padding: 1em 1.5em 1em 1.5em;
+background: #333;
+padding: 1em 1.3em 1em 1.2em;
 font-size: 1.1em;
 }
 
