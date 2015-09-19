@@ -20,7 +20,7 @@ body {margin: 0 auto;width:100%;height:100%;font-family:'Open Sans Condensed','A
 .slonce:hover {
     opacity: 1.0;
 }
-.boost {text-decoration:none;}
+.boost a {text-decoration:none;}
 span {color:#fff;}
 a {color:gray;}
 a:hover {color:orangered;}
