@@ -12,6 +12,15 @@ body {margin: 0 auto;width:100%;height:100%;font-family:'Open Sans Condensed','A
     opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
 }
+
+
+.slonce {
+    opacity: 0.4;
+}
+.slonce:hover {
+    opacity: 1.0;
+}
+
 span {color:#fff;}
 
 .content {width:90%;padding:5%;}
