@@ -30,17 +30,46 @@ a {color:gray;}
 a:hover {color:orangered;}
 .orange {color:orange;}
 .yellow {color:yellow;font-size:1.2em;font-weight:bold;}
-.content {width:90%;padding:5%;}
-.aiml {width:90%;padding-left:5%;padding-top:5%;opacity: none;}
-.content span {color:#444;}
+
+.aiml {
+    background-color: #E9EAF7;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    opacity: none;
+}
+
+
+.dot {border-top:1px dotted #444;}
+
+.footer {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer span {color:#444;}
 
 
 
+
+
+.sw {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.sw p {padding-top:1%;}
 
 /* switch */
-.sw {width: 90%; padding-left: 5%;}
 .onoffswitch {
-    position: relative; width: 75px;
+    position: relative; width: 65px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
 .onoffswitch-checkbox {
@@ -48,7 +77,7 @@ a:hover {color:orangered;}
 }
 .onoffswitch-label {
     display: block; overflow: hidden; cursor: pointer;
-    border: 0px solid #999999; border-radius: 23px;
+    border: 1px solid #999999; border-radius: 4px;
 }
 .onoffswitch-inner {
     display: block; width: 200%; margin-left: -100%;
@@ -75,7 +104,7 @@ a:hover {color:orangered;}
     background: #FFFFFF;
     position: absolute; top: 0; bottom: 0;
     right: 44px;
-    border: 0px solid #999999; border-radius: 23px;
+    border: 1px solid #999999; border-radius: 4px;
     transition: all 0.3s ease-in 0s; 
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
