@@ -40,7 +40,7 @@ a:hover {color:orangered;}
 /* switch */
 .sw {width: 90%; padding: 5%;}
 .onoffswitch {
-    position: relative; width: 76px;
+    position: relative; width: 75px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
 .onoffswitch-checkbox {
@@ -55,7 +55,7 @@ a:hover {color:orangered;}
     transition: margin 0.3s ease-in 0s;
 }
 .onoffswitch-inner:before, .onoffswitch-inner:after {
-    display: block; float: left; width: 50%; height: 31px; padding: 0; line-height: 31px;
+    display: block; float: left; width: 50%; height: 27px; padding: 0; line-height: 27px;
     font-size: 13px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
     box-sizing: border-box;
 }
@@ -71,10 +71,10 @@ a:hover {color:orangered;}
     text-align: right;
 }
 .onoffswitch-switch {
-    display: block; width: 27px; margin: 2px;
+    display: block; width: 27px; margin: 0px;
     background: #FFFFFF;
     position: absolute; top: 0; bottom: 0;
-    right: 41px;
+    right: 44px;
     border: 2px solid #999999; border-radius: 23px;
     transition: all 0.3s ease-in 0s; 
 }
