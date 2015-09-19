@@ -11,3 +11,6 @@ body {margin: 0 auto;width:100%;height:100%;font-family:'Open Sans Condensed','A
     filter: alpha(opacity=90); /* For IE8 and earlier */
 }
 span {color:#fff;}
+
+.content {width:90%;padding:5%;}
+.content span {color:#444;}
